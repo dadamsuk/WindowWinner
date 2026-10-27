@@ -49,3 +49,7 @@ C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /codepage:65001 /target:
 ```
 
 Everything is in [`WindowWinner.cs`](WindowWinner.cs). It's a WinForms app using a few Win32 calls: `EnumWindows`, `Get/SetWindowPlacement`, `EnumDisplayMonitors`, and `QueryDisplayConfig` for monitor names. The code is limited to C# 5 so it builds with that compiler.
+
+## License
+
+[MIT](LICENSE)
